@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 function MainHeader() {
-  return <h1>REACT COURSE</h1>;
+  return <h1 className="text-primary">REACT COURSE</h1>;
 }
 function SubHeader() {
   return <p>This will be an exciting course</p>;
@@ -18,7 +18,7 @@ function Header() {
 function MainBody() {
   return (
     <div>
-      <p>In this coursde we will learn react js by building Taskopedia</p>
+      <p>In this course we will learn react js by building Taskopedia</p>
       <ul>
         <li>Call me</li>
         <li>Go to walmart</li>
