@@ -30,17 +30,33 @@ function MainBody() {
         <li>Basic Foundation</li>
         <li>Functional and Class Components</li>
       </ul>
+      <div>
+        Enter Task: <input maxLength={5} readOnly={false}></input>
+      </div>
     </div>
   );
 }
 
+function Students(){
+  const fullName = "Kris Walley";
+
+  return(
+    <div className="container p-4">
+      <div className="row">
+        Students Enrolled
+      </div>
+    </div>
+  )
+}
+
 function Footer() {
-  return <p>Happy Coding</p>;
+  return <p style={{color: "gray", backgroundColor: "black"}}>Happy Coding</p>;
 }
 root.render(
   <div>
     <Header />
     <MainBody />
+    <Students />
     <Footer />
   </div>
 );
